@@ -1,21 +1,29 @@
 <html>
+<head>  
+<link rel="stylesheet" type="text/css" href="style.css">
 
-<head>
-    <title>Paint</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js"></script>
+    <script type="text/javascript">
+</script>
+
 </head>
+<body class="body_backgorund">
+<center>
+<div>
+<h1>Paint</h1>
 
-<body>
-    <div>
-        <h1>Paint</h1>
-        <canvas id="myCanvas" width="700" height="400"></canvas>
-        <br><br>
-        <span>Color - </span>&nbsp;&nbsp;<input id="ColorInput"><br><br>
-        <span>Line Width - </span>&nbsp;&nbsp;<input id="WidthInput"><br><br>
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br >
 
-        <button type="button" onclick="cleararea()">Clear</button>
+<!--Additional activity -->
+<span>color -</span>
+<input type="text" id="color">
+
+<span>width of line -</span>
+<input type="text" id="width_of_line">
+
+<button onclick="clearArea()">Clear Area</button>
     </div>
+    </center>
+<script src="main.js"></script>
 </body>
-
 </html>
